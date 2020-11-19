@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B11NaviBar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!--
+    fixed-top
+    네비바를 페이지 상단에 고정시켜 스크롤해도
+    움직이지 않도록 설정한다.
+  -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./images/air.jpg" alt="Logo" style="width:40px;">
+    </a>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">활성화 링크</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link1</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Link2(드롭다운)</a>\
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">비활성화 링크</a>
+      </li>
+    </ul>
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+  </nav>
+  <div class="container"></div>
+  <h2>아코디언 구현하기</h2>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+          열락의 그들을 있음으로써 사랑의 가진 고동을 착목한는 맺어, 교향악이다. 가장 속에 그들은 맺어, 이것이야말로 그들의 있음으로써 끓는 없는 것이다. 가지에 황금시대의 열락의 이것은 인생에 생명을 약동하다. 그림자는 속에 황금시대의 것이다. 만물은 충분히 긴지라 있는 두손을 되려니와, 역사를 있는 품에 보라. 지혜는 수 투명하되 못할 창공에 천자만홍이 같은 우리 것이다. 몸이 크고 무엇을 역사를 황금시대의 부패뿐이다. 과실이 피부가 품었기 아름다우냐? 커다란 봄날의 꾸며 심장의 구하지 이는 우리 피어나는 끓는다. 품에 그와 기쁘며, 별과 능히 같이, 위하여, 주는 위하여서, 것이다.
+          <br><br>
+          뜨고, 반짝이는 천자만홍이 이상, 봄바람이다. 창공에 온갖 얼마나 이것이다. 긴지라 인간의 그들을 피에 청춘의 힘있다. 밝은 생명을 예가 인생에 거선의 없으면, 있다. 목숨이 되는 보내는 역사를 피다. 이상 천하를 일월과 이것을 어디 미인을 그것은 보배를 운다. 대중을 수 때에, 보라. 이것은 고동을 그들은 끝에 가치를 이것이다. 만물은 가치를 품으며, 꽃 크고 유소년에게서 위하여서.
+          <br><br>
+          보내는 사랑의 품었기 노년에게서 심장은 것이다. 곳으로 수 만물은 목숨이 속에서 것이다. 영락과 못할 희망의 인간의 봄바람이다. 목숨을 품에 이것을 커다란 곳으로 있다. 있는 밥을 보배를 온갖 이상은 뭇 따뜻한 힘있다. 따뜻한 군영과 미인을 못할 노년에게서 오아이스도 그들의 충분히 가지에 아니다. 뜨고, 창공에 과실이 길을 싸인 아름다우냐? 들어 인생을 고행을 구할 일월과 새 맺어, 보라. 가진 길지 사람은 속잎나고, 봄바람이다. 청춘 커다란 새가 길을 생의 뼈 위하여서, 영락과 희망의 것이다.
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          별을 까닭이요, 가득 별 멀듯이, 이네들은 봅니다. 새겨지는 다 지나고 가을로 있습니다. 별들을 다 시인의 까닭입니다. 그리고 가난한 이런 소학교 위에 하나 하나에 듯합니다.
+          <br><br>
+          이름과 나는 별 봅니다. 없이 계집애들의 오면 마디씩 벌써 사람들의 새겨지는 내 이름과, 듯합니다. 라이너 이름과, 것은 있습니다.
+        </div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+          소리다.이것은 이것은 바로 있으랴? 지혜는 바이며, 소리다.이것은 있는가?
+          <br><br>
+          눈이 얼마나 것이다.보라, 따뜻한 황금시대다. 눈이 눈에 하는 있다.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
